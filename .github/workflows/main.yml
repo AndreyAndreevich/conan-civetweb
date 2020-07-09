@@ -8,6 +8,7 @@ env:
   CONAN_UPLOAD: "https://api.bintray.com/conan/andrbek/conan"
   CONAN_REMOTE: "andrbek"
   CONAN_USERNAME: "andreyandreevich"
+  BINTRAY_API_KEY: ${{ secrets.BINTRAY_API_KEY }}
 
 jobs:
   build:
