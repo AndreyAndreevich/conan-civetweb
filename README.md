@@ -6,21 +6,22 @@
 
 ## Basic setup
 
-    $ conan install . prometheus-cpp/0.9.0@andrbek/stable -o prometheus-cpp:mode=pull
+    $ conan install . civetweb/1.12@andrbek/testing
     
 ## Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
     
     [requires]
-      prometheus-cpp/0.9.0@andrbek/stable
+      civetweb/1.12@andrbek/testing
 
     [options]
-      prometheus-cpp:mode=pull                         # REQUIRED, you must specify 'pull' xor 'push'
-      prometheus-cpp:shared=False                      # default is False
-      prometheus-cpp:enable_compression=True           # default is True
-      prometheus-cpp:override_cxx_standard_flags=True  # default is True
-      prometheus-cpp:fPIC=True                         # default is True
+      civetweb:shared=True                              # default is False
+      civetweb:fPIC=True                                # default is True
+      civetweb:enable_ssl=True                          # default is True
+      civetweb:enable_websockets=True                   # default is True
+      civetweb:enable_ipv6=True                         # default is True
+      civetweb:enable_cxx=True                          # default is True
 
     [generators]
       cmake

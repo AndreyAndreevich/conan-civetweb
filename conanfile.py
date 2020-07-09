@@ -37,10 +37,10 @@ class civetwebConan(ConanFile):
     def source(self):
         tools.get('%s/archive/v%s.zip' % (self.homepage, self.version))
         source = '%s-%s' % (self.name, self.version)
+        os.remove("README.md")
         files = os.listdir(source)
         for f in files:
             shutil.move(os.path.join(source, f), '.')
-
 
     def config_options(self):
         if self.settings.os == 'Windows':
