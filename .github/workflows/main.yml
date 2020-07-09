@@ -33,4 +33,4 @@ jobs:
         conan install $CONAN_REFERENCE@demo/testing --build
 
     - name: Test
-        run: conan test test_package $CONAN_REFERENCE@demo/testing
+      run: conan test test_package $CONAN_REFERENCE@demo/testing
