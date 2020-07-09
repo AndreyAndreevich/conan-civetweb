@@ -1,6 +1,6 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://travis-ci.org/steakhal/conan-prometheus-cpp.svg)](https://travis-ci.org/steakhal/conan-prometheus-cpp)
-[![Download](https://api.bintray.com/packages/steakhal/conan/prometheus-cpp%3Acivetweb/images/download.svg)](https://bintray.com/andrbek/conan/civetweb%3Acivetweb/_latestVersion)
+[![Build Status](https://github.com//AndreyAndreevich/conan-civetweb/workflows/CI/badge.svg))](https://github.com//AndreyAndreevich/conan-civetweb/actions)
+[![Download](https://api.bintray.com/packages/andrbek/conan/civetweb%3Aandrbek/images/download.svg)](https://bintray.com/andrbek/conan/civetweb%3Aandrbek/_latestVersion)
 
 # conan-prometheus-cpp
 
