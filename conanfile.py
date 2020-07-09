@@ -8,10 +8,10 @@ class civetwebConan(ConanFile):
     name = "civetweb"
     version = '1.12'
     license = "MIT"
-    url = "https://github.com/civetweb/civetweb"
+    url = "https://github.com/AndreyAndreevich/conan-civetweb"
     homepage = "https://github.com/civetweb/civetweb"
     description = "Embedded C/C++ web server"
-    author = "Bernhard Lehner <bel2125@gmail.com>"
+    author = "l.a.r.p@yandex.ru"
     topics = ("conan", "civetweb", "web-server", "embedded")
     exports = ("LICENSE.md", "README.md")
     exports_sources = ("src/*", "cmake/*", "include/*", "CMakeLists.txt")
