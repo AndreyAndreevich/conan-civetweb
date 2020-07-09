@@ -6,14 +6,14 @@
 
 ## Basic setup
 
-    $ conan install . civetweb/1.12@andrbek/testing
+    $ conan install . civetweb/1.12@andrbek/stable
     
 ## Project setup
 
 If you handle multiple dependencies in your project is better to add a *conanfile.txt*
     
     [requires]
-      civetweb/1.12@andrbek/testing
+      civetweb/1.12@andrbek/stable
 
     [options]
       civetweb:shared=True                              # default is False
