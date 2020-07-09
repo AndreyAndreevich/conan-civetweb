@@ -3,7 +3,7 @@ name: CI
 on: [push, pull_request]
 
 env:
-  CONAN_REFERENCE: "civetweb/1.12.0"
+  CONAN_REFERENCE: "civetweb/1.12"
   CONAN_BRANCH: "andrbek/testing"
   CONAN_UPLOAD: "https://api.bintray.com/conan/andrbek/conan"
   CONAN_REMOTE: "andrbek"
