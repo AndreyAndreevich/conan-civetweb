@@ -34,3 +34,11 @@ jobs:
 
     - name: Test
       run: conan test test_package $CONAN_REFERENCE@demo/testing
+
+    - name: Configure remote
+      run: |
+        conan remote add $CONAN_REMOTE $CONAN_UPLOAD --insert
+        conan user -p $BINTRAY_API_KEY -r $CONAN_REMOTE $CONAN_USERNAME
+
+    - name: Push
+      run: conan upload $CONAN_REFERENCE@$CONAN_BRANCH --all -r=$CONAN_REMOTE
