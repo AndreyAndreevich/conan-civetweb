@@ -2,7 +2,7 @@
 [![Build Status](https://github.com//AndreyAndreevich/conan-civetweb/workflows/CI/badge.svg)](https://github.com//AndreyAndreevich/conan-civetweb/actions)
 [![Download](https://api.bintray.com/packages/andrbek/conan/civetweb%3Aandrbek/images/download.svg)](https://bintray.com/andrbek/conan/civetweb%3Aandrbek/_latestVersion)
 
-# conan-prometheus-cpp
+# conan-civetweb
 
 ## Basic setup
 
